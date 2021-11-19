@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Document</title>
+  <title>Currency Exchanger</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Currency Exchanger</h1>
+    
+    <label for="amnt">Enter an amount:</label>
+    <input id="amnt" type="number" placeholder="Enter amount in USD" required>
+    
+    <h2>Select desired currency</h2>
+    <select class="selectForm" id="currency">
+      <option value="AUD">AUD - Australia</option>
+      <option value="CAD">CAD - Canada</option>
+      <option value="EUR">EUR - Euro</option>
+      <option value="GBP">GBP - United Kingdom</option>
+      <option value="JPY">JPY - Japan</option>
+    </select>
+    <button class="btn btn-success" id="currencyBtn">Convert!</button>
+  </div>
+  <div class="showRate">
+  </div>
 </body>
 </html>
