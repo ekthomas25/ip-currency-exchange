@@ -4,26 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import CurrencyService from './js/CurrencyService';
 
-// function getMoney(response) {
-//   if (response.conversion_result) {
-//     $('.showRate').text(`${response.conversion_result} `);
-//   } else {
-//     $('.showErrors').text(`There was an error: ${error}`);
-//     console.log(response["error-type"]);
-//   }
-// }
-
-// $(document).ready(function() {
-//   $('#currencyBtn').click(function() {
-//     let code = $('#currency').val();
-//     let amount = $('#amnt').val();
-//     CurrencyService.getRate(code, amount)
-//       .then(function(response) {
-//         getMoney(response);
-//       });
-//   });
-// });
-
 function clearOutput() {
   $('.showErrors').text("");
   $('.showRate').text("");
@@ -42,7 +22,7 @@ $(document).ready(function() {
       $('.currencyErr').hide();
     }, function(error) {
       const errorType = JSON.parse(error);
-      $('.showErrors').text(`There was an error processing your request: ${errorType["error-type"]}`);
+      $('.showErrors').text(`There was an error processing your request. Error: ${errorType["error-type"]}`);
       if (errorType["error-type"] === "unsupported-code") {
         $('.currencyErr').show();
       }
