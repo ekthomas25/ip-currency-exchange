@@ -23,14 +23,15 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* #### _Your computer will need to have [GIT installed.](https://docs.github.com/en/get-started/quickstart/set-up-git)_
-* #### _Your computer will need to have [Visual Studio Code installed.](https://code.visualstudio.com/download)_
-* #### _Your computer will need to have [Node installed.](https://nodejs.dev/learn/how-to-install-nodejs)_
-* #### _You will need an API Key for this program to run properly._
+#### _Your computer will need to have the following Installed:
+* [GIT](https://docs.github.com/en/get-started/quickstart/set-up-git)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [Node](https://nodejs.dev/learn/how-to-install-nodejs)
+
+#### You will need an API Key for this program to run properly.
     * _Navigate to [ExchangeRate-API](https://www.exchangerate-api.com/) and enter your email to obtain a free API Key._
     * _After verifying your email, you will receive an email with your API Key._
     * #### _Do not share your API Key, it is exclusive to you and should remain secret._
-
 
 * _Once you have VSCode, Node, and GIT set up, you will need to open up your terminal and type the command:_ git clone https://github.com/ekthomas25/i-p-currency-exchange.git
 
