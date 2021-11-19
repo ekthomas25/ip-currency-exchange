@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Currency Exchanger_
 
 #### By _Liz Thomas_
 
-#### _{Brief description of application}_
+#### _This is a web app that allows a user to enter an amount in USD and have it converted and displayed in another currency._
 
 ## Technologies Used
 
@@ -12,7 +12,6 @@
 * _JavaScript_
 * _jQuery 3.6.0._
 * _webpack_
-* _Jest_
 * _Babel_
 * _eslint_
 * _Node_
@@ -24,33 +23,29 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* #### _Your computer will need to have GIT installed._
-* _If you do not currently have GIT installed you will need to follow the directions on GitHub's website for installing and setting up GIT. These can be found [here.](https://docs.github.com/en/get-started/quickstart/set-up-git)_
-* #### _Your computer will need to have Visual Studio Code installed._
-* _You can download the program [here.](https://code.visualstudio.com/download)_
-* #### _Your computer will need to have Node installed._
-* _You can learn how to download and install Node [here.](hhttps://nodejs.dev/learn/how-to-install-nodejs)_
+* #### _Your computer will need to have [GIT installed.](https://docs.github.com/en/get-started/quickstart/set-up-git)_
+* #### _Your computer will need to have [Visual Studio Code installed.](https://code.visualstudio.com/download)_
+* #### _Your computer will need to have [Node installed.](https://nodejs.dev/learn/how-to-install-nodejs)_
+* #### _You will need an API Key for this program to run properly._
+    * _Navigate to [ExchangeRate-API](https://www.exchangerate-api.com/) and enter your email to obtain a free API Key._
+    * _After verifying your email, you will receive an email with your API Key._
+    * #### _Do not share your API Key, it is exclusive to you and should remain secret._
 
 
-* _Once you have VSCode, Node, and GIT set up, you will need to open up your terminal and type the command:_
-git clone https://github.com/ekthomas25/i-p-galactic-calculator.git
+* _Once you have VSCode, Node, and GIT set up, you will need to open up your terminal and type the command:_ git clone https://github.com/ekthomas25/i-p-currency-exchange.git
 
 * _This will clone the repository to your desktop and you will be able to then open the folder in VSCode._
 * _Open the terminal in VSCode and type the following command:_ npm install
 * _This will install and generate the neccessary files for this project._
-* _Eenter_ npm run build _into the terminal_
-* _Open dist/index.html in your browser_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Enter_ npm run build _into the terminal_
+* _Create a .env file by entering_ touch .env _in your terminal. Click on the file in your Explorer sidebar and copy and paste the following:_ API_KEY= _followed directly by your API Key, then save_.
+* _Enter_ npm run start _into your terminal and the application will open in your browser._
 
 ## Known Bugs
 
 * _Any known issues_
-* _should go here_
 
 ## License
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 _If you have any questions or would like to reach out for any reason, please don't hesitate to send and email to [thomas.elizabeth.k@gmail.com](mailto:thomas.elizabeth.k@gmail.com)._
 
