@@ -19,6 +19,7 @@ h1 {
 
 .container {
   background-color: rgb(233, 255, 252);
+  height: 300px;
   margin: 2%;
   margin-top: 0%;
   padding-top: 2%;
@@ -49,4 +50,8 @@ h1 {
 
 .currencyErr {
   color: red;
+}
+
+.btn {
+  background-color: royalblue;
 }
