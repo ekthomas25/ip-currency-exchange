@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <title>Currency Exchanger</title>
 </head>
 <body>
+  <h1>Currency Exchanger<hr></h1>
   <div class="container">
-    <h1>Currency Exchanger</h1>
-    
     <label for="amnt">Enter an amount:</label>
-    <input id="amnt" type="number" placeholder="Enter amount in USD" required>
+    <input id="amnt" type="number" min="0" placeholder="Enter amount in USD" required>
     
-    <h2>Select desired currency</h2>
+    <label for="currency">Select Currency:</label>
     <select class="selectForm" id="currency">
       <option value="AED">AED - UAE</option>
       <option value="AFN">AFN - Afghanistan</option>
@@ -174,13 +176,14 @@
       <option value="ZMW">Zambia</option>
     </select>
     <button class="btn btn-success" id="currencyBtn">Convert!</button>
-  </div>
-  <div class="showRate">
-  </div>
-  <div class="showErrors">
-  </div>
-  <div class="currencyErr">
-    The inputted currency is not supported. Please see <a href="https://www.exchangerate-api.com/docs/supported-currencies">this link</a> for a list of supported currencies.
+    <hr>
+    <div class="showRate">
+    </div>
+    <div class="showErrors">
+    </div>
+    <div class="currencyErr">
+      The inputted currency is not supported. Please see <a href="https://www.exchangerate-api.com/docs/supported-currencies">this link</a> for a list of supported currencies.
+    </div>
   </div>
 </body>
 </html>
