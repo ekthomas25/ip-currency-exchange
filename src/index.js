@@ -10,7 +10,6 @@ function clearOutput() {
   $('#amnt').val("");
 }
 
-
 $(document).ready(function() {
   $('#currencyBtn').click(function() {
     let code = $('#currency').val();
