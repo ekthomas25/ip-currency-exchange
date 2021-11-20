@@ -12,6 +12,7 @@
 * _JavaScript_
 * _jQuery 3.6.0._
 * _webpack_
+* _Babel_
 * _eslint_
 * _Node_
 * _[ExchangeRate-API](https://www.exchangerate-api.com/)_
@@ -31,7 +32,7 @@ This web application is a currency exchanger that takes an inputted USD amount a
 #### You will need an API Key for this program to run properly.
   * _Navigate to [ExchangeRate-API](https://www.exchangerate-api.com/) and enter your email to obtain a free API Key._
   * _After verifying your email, you will receive an email with your API Key._
-  * #### _Do not share your API Key, it is exclusive to you and should remain secret._
+  * **Do not share your API Key, it is exclusive to you and should remain secret.**
 
 * _Once you have VSCode, Node, and GIT set up, you will need to open up your terminal and type the command:_ git clone https://github.com/ekthomas25/i-p-currency-exchange.git
 
