@@ -12,26 +12,26 @@
 * _JavaScript_
 * _jQuery 3.6.0._
 * _webpack_
-* _Babel_
 * _eslint_
 * _Node_
+* _[ExchangeRate-API](https://www.exchangerate-api.com/)_
 
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This web application is a currency exchanger that takes an inputted USD amount and converts it into a selected foreign currency. There are 160 different currencies to choose from in the dropdown menu. The menu is organized alphabetically by currency code. The web application does not take any amount less than or equal to 0. This program was built using an ExchangeRate API for Epicodus' Week 6 Independent Project.
 
 ## Setup/Installation Requirements
 
-#### _Your computer will need to have the following Installed:
+#### Your computer will need to have the following Installed:
 * [GIT](https://docs.github.com/en/get-started/quickstart/set-up-git)
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Node](https://nodejs.dev/learn/how-to-install-nodejs)
 
 #### You will need an API Key for this program to run properly.
-    * _Navigate to [ExchangeRate-API](https://www.exchangerate-api.com/) and enter your email to obtain a free API Key._
-    * _After verifying your email, you will receive an email with your API Key._
-    * #### _Do not share your API Key, it is exclusive to you and should remain secret._
+  * _Navigate to [ExchangeRate-API](https://www.exchangerate-api.com/) and enter your email to obtain a free API Key._
+  * _After verifying your email, you will receive an email with your API Key._
+  * #### _Do not share your API Key, it is exclusive to you and should remain secret._
 
 * _Once you have VSCode, Node, and GIT set up, you will need to open up your terminal and type the command:_ git clone https://github.com/ekthomas25/i-p-currency-exchange.git
 
@@ -44,7 +44,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Known Bugs
 
-* _Any known issues_
+* _No known issues_
 
 ## License
 
